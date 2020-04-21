@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 ## Hello and welcome to my blog.
 
 I am an engineer by training but love to learning new things and if you have found this blog I imagine you do too. I made this blog to share some of the things that I am learning/working on with people who are interested. 
