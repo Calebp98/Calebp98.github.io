@@ -17,15 +17,23 @@ learnt more than I expected from projects that I was already doing. Here is a se
 of some of the projects I am most proud of.
 
 ### Completed
+
 * [physNet](https://devpost.com/software/physionet)
+\- Web app designed to help physiotherapists monitor their patients from their
+homes *Tensorflow.js, Computer Vision, p5, ml5, node.js*
 * [What's your problem](https://devpost.com/software/what-s-your-problem)
+\- Web app built for [Upping your Elvis](https://www.uppingyourelvis.com/), Hackmed 2020 winner *Tensorflow, flask*
 * [th3g00d.space](https://devpost.com/software/th3g00d-space)
+\- Web app for gesture based passwords, HackSheff 2019 winner *Tensorflow, Computer Vision, flask, Google Cloud*
 * [Learning ASL using Transfer Learning](https://devpost.com/software/covhack19)
-* [ML Approaches to Dementia Assessment \(publication\)](https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-019-0858-4)
+\- Web app for using transfer learning to recognise ASL for text based adventure game, HackCov 2019 winner *Tensorflow.js, Computer Vision, flask*
+* [ML Approaches to Dementia Assessment](https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-019-0858-4) - \(peer-reviewed publication\) supervised by [Dennis Wang](https://www.sheffield.ac.uk/medicine/people/neuroscience/dennis-wang).
 
 
 ### Current
-* [Conquer the World](https://github.com/JamesDHW/CTW)
-* [Multiplayer Fun!](https://github.com/Calebp98/multiplayerGame)
-* Interpreter Project
-* Spinning Up in Deep RL
+* [Conquer the World](https://github.com/JamesDHW/CTW) - Native app for
+multiplayer game where players compete to mark the most territory.
+* [Multiplayer Fun!](https://github.com/Calebp98/multiplayerGame) - Express app
+using websockets for real time gameplay where players score points by tagging other players.
+* [Interpreter Project](https://ruslanspivak.com/lsbasi-part1/) - I thought following [these tutorials](https://ruslanspivak.com/lsbasi-part1/) was a way to learn more about compilers and interpreters (and therefore computers).
+* [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) - I think that deep reinforcement represents one of the most promising paths to artificial general intelligence. Even if it doesn't some labs have achieved [pretty](https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii) [amazing](https://openai.com/blog/better-language-models/) [results](https://openai.com/progress/) using deep RL. I am working through Open AI's resources to learn more about how to get agents that we build do the things we want and not things we don't want ([AI control problem](https://en.wikipedia.org/wiki/AI_control_problem)).

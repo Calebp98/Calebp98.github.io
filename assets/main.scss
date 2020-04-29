@@ -4,6 +4,13 @@
 
 @import "{{ site.theme }}";
 
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
 .post img {
         display: block;
         border:1px solid #021a40;
@@ -59,4 +66,3 @@
 }
 
 .codecell table { width: auto; }
-
