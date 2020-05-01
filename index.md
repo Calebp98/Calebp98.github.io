@@ -24,9 +24,8 @@ I imagine that it will be a bit of an eclectic mix of computer science topics (s
 ## Projects
 
 I often find that if I want to cement my understanding of a topic, it helps to
-have a project where I am applying that knowledge. I have also found that I have
-learnt more than I expected from projects that I was already doing. Here is a set
-of some of the projects I am most proud of.
+have a project where I am applying that knowledge. Here is a set
+of some of the projects I found interesting.
 
 </div>
 
