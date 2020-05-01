@@ -3,11 +3,23 @@ layout: default
 title: Home
 ---
 
+<head>
+  <script src="/assets/js/p5.js"></script>
+  <script src="/assets/js/script.js"></script>
+  <script src="/assets/js/p5.play.js"></script>
+</head>
+
+<div id="anime1" markdown="1"></div>
+
+<div id="intro" markdown="1">
+
 ## Hello and welcome to my blog.
 
 I am an engineer by training but love to learning new things and if you have found this blog I imagine you do too. I made this blog to share some of the things that I am learning/working on with people who are interested.
 
 I imagine that it will be a bit of an eclectic mix of computer science topics (such as deep reinforcement learning), philosophy (particulalry around the themes of [Effective Altruism](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/)) and short bursts of other topics. When I have more content I will try to curate articles into sensible streams but until then I will be embracing the chaos!
+
+
 
 ## Projects
 
@@ -15,6 +27,11 @@ I often find that if I want to cement my understanding of a topic, it helps to
 have a project where I am applying that knowledge. I have also found that I have
 learnt more than I expected from projects that I was already doing. Here is a set
 of some of the projects I am most proud of.
+
+</div>
+
+<div id="anime2" markdown="1"></div>
+<div id="project" markdown="1">
 
 ### Completed
 
@@ -37,3 +54,4 @@ multiplayer game where players compete to mark the most territory.
 using websockets for real time gameplay where players score points by tagging other players.
 * [Interpreter Project](https://ruslanspivak.com/lsbasi-part1/) - I thought following [these tutorials](https://ruslanspivak.com/lsbasi-part1/) was a way to learn more about compilers and interpreters (and therefore computers).
 * [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) - I think that deep reinforcement represents one of the most promising paths to artificial general intelligence. Even if it doesn't some labs have achieved [pretty](https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii) [amazing](https://openai.com/blog/better-language-models/) [results](https://openai.com/progress/) using deep RL. I am working through Open AI's resources to learn more about how to get agents that we build do the things we want and not things we don't want ([AI control problem](https://en.wikipedia.org/wiki/AI_control_problem)).
+</div>
