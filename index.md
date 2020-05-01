@@ -44,7 +44,7 @@ homes *Tensorflow.js, Computer Vision, p5, ml5, node.js*
 \- Web app for gesture based passwords, HackSheff 2019 winner *Tensorflow, Computer Vision, flask, Google Cloud*
 * [Learning ASL using Transfer Learning](https://devpost.com/software/covhack19)
 \- Web app for using transfer learning to recognise ASL for text based adventure game, HackCov 2019 winner *Tensorflow.js, Computer Vision, flask*
-* [ML Approaches to Dementia Assessment](https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-019-0858-4) - \(peer-reviewed publication\) supervised by [Dennis Wang](https://www.sheffield.ac.uk/medicine/people/neuroscience/dennis-wang).
+
 
 
 ### Current
@@ -55,3 +55,15 @@ using websockets for real time gameplay where players score points by tagging ot
 * [Interpreter Project](https://ruslanspivak.com/lsbasi-part1/) - I thought following [these tutorials](https://ruslanspivak.com/lsbasi-part1/) was a way to learn more about compilers and interpreters (and therefore computers).
 * [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) - I think that deep reinforcement represents one of the most promising paths to artificial general intelligence. Even if it doesn't some labs have achieved [pretty](https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii) [amazing](https://openai.com/blog/better-language-models/) [results](https://openai.com/progress/) using deep RL. I am working through Open AI's resources to learn more about how to get agents that we build do the things we want and not things we don't want ([AI control problem](https://en.wikipedia.org/wiki/AI_control_problem)).
 </div>
+
+### Technical Writing
+
+* [ML Approaches to Dementia Assessment](https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-019-0858-4) - \(peer-reviewed publication\) supervised by [Dennis Wang](https://www.sheffield.ac.uk/medicine/people/neuroscience/dennis-wang).
+
+* [Agent-based modelling and multi-agent systems](https://drive.google.com/file/d/1vsccYW0N7Mt7xLJURUl8U4mhBoQyBw1O/view?usp=sharing)
+
+* [Classification of the EMNIST Dataset via Competitive Learning](https://drive.google.com/file/d/1pI40ETUCC2W7viSdWN-5rEDeinzqgRzo/view?usp=sharing)
+
+* [On and Off Policy Approaches to Reinforcement Learning Using Chess](https://drive.google.com/file/d/1BhR2fk2Mx0MFhYsFuF2ij36lyInXHP1C/view?usp=sharing)
+
+* [Biologically Inspired Spiking Neural Networks for Signal Processing and Classification](https://drive.google.com/file/d/1F5dYXYh88d9vw5vTYYn2EMT95H_SdMKr/view?usp=sharing)
