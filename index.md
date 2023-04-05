@@ -15,7 +15,7 @@ title: Home
 
 ## Hello and welcome to my blog/project site/whatever.
 
-I studied engineering in undergrad and currently run a [grantmaking organisation](https://funds.effectivealtruism.org/apply-for-funding).
+I currently run a [grantmaking organisation](https://funds.effectivealtruism.org/apply-for-funding).
 
 If I decide to post regularly here I imagine that it will be an eclectic mix of computer science topics (such as deep reinforcement learning), philosophy (particulalry around the themes of [Effective Altruism](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/)) and short bursts of other topics.
 
@@ -36,7 +36,7 @@ of some of the projects I found interesting.
 * [physNet](https://devpost.com/software/physionet)
 \- Web app designed to help physiotherapists monitor their patients from their
 homes *Tensorflow.js, Computer Vision, p5, ml5, node.js*
-* [What's your problem](https://devpost.com/software/what-s-your-problem)
+* [What's your problem?](https://devpost.com/software/what-s-your-problem)
 \- Web app built for [Upping your Elvis](https://www.uppingyourelvis.com/), Hackmed 2020 winner *Tensorflow, flask*
 * [th3g00d.space](https://devpost.com/software/th3g00d-space)
 \- Web app for gesture based passwords, HackSheff 2019 winner *Tensorflow, Computer Vision, flask, Google Cloud*
