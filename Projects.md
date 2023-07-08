@@ -13,7 +13,7 @@ title: Projects
 
 ## Projects
 
-I sometimes work on fun side projects. I've included a selection below.
+I sometimes work on fun side projects. I've included a subset of these below.
 
 </div>
 
