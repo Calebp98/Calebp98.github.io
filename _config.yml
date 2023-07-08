@@ -12,13 +12,13 @@ github_username: Calebp98
 
 # Email and twitter are optional:
 email: parikhcaleb@gmail.com
-twitter_username:
+twitter_username: https://twitter.com/caleb_parikh
 
 # Set this to true to get LaTeX math equation support
 use_math: true
 
 # Add your Google Analytics ID here if you have one and want to use it
-google_analytics:
+google_analytics: 
 
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
