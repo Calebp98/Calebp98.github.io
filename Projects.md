@@ -30,7 +30,6 @@ I sometimes work on fun side projects. I've included a subset of these below.
     <p class="repo-description">{{ repo.description | default: "No description provided" }}</p>
     <div class="repo-meta">
       {% if repo.language %}<span class="repo-language">{{ repo.language }}</span>{% endif %}
-      {% if repo.stargazers_count > 0 %}<span class="repo-stars">★ {{ repo.stargazers_count }}</span>{% endif %}
       <span class="repo-updated">Updated {{ repo.updated_at | date: "%b %Y" }}</span>
     </div>
   </div>
