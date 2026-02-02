@@ -15,14 +15,10 @@ title: Projects
 
 I sometimes work on fun side projects. I've included a subset of these below.
 
-> **Auto-updating:** Projects tagged with 'portfolio' on GitHub appear automatically. To add a project, go to the repo → Settings → Topics → add 'portfolio'.
-
 </div>
 
 <div id="anime2" markdown="1"></div>
 <div id="project" markdown="1">
-
-### Current Projects
 
 {% assign portfolio_repos = site.github.public_repositories | where_exp: "repo", "repo.topics contains 'portfolio'" | sort: "updated_at" | reverse %}
 {% if portfolio_repos.size > 0 %}
@@ -41,11 +37,7 @@ I sometimes work on fun side projects. I've included a subset of these below.
   {% endunless %}
 {% endfor %}
 </div>
-{% else %}
-<p><em>No projects tagged yet. Tag repos with 'portfolio' on GitHub to display them here.</em></p>
 {% endif %}
-
-### Completed
 
 * [physNet](https://devpost.com/software/physionet)
 \- Web app designed to help physiotherapists assess their patients *Tensorflow.js, Computer Vision, p5, ml5, node.js*
@@ -57,12 +49,8 @@ I sometimes work on fun side projects. I've included a subset of these below.
 \- Web app for using transfer learning to recognise ASL for text based adventure game, HackCov 2019 winner *Tensorflow.js, Computer Vision, flask*
 * [Conquer the World](https://github.com/JamesDHW/CTW) 
 \ - Native app for a multiplayer, geocaching inspired game where players compete to claim the most territory.
-* [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) 
+* [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/)
 * \ - Worked through most of the curriculum (inclduing implementing PPO).
-
-
-### Technical Writing
-
 * [ML Approaches to Dementia Assessment](https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-019-0858-4)
 \- \(peer-reviewed publication\) supervised by [Dennis Wang](https://www.sheffield.ac.uk/medicine/people/neuroscience/dennis-wang).
 
