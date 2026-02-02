@@ -10,11 +10,12 @@ title: Posts
 
 <div id="anime2" markdown="1"></div>
 
+<div markdown="1">
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+You can find my writing on:
+
+* [Substack](https://substack.com/@calebparikh)
+* [AI Security Forum](https://aisecurityforum.substack.com/)
+* [EA Forum](https://forum.effectivealtruism.org/users/calebp?from=search_autocomplete)
+
+</div>
