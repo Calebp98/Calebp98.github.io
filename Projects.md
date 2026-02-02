@@ -15,10 +15,35 @@ title: Projects
 
 I sometimes work on fun side projects. I've included a subset of these below.
 
+> **Auto-updating:** Projects tagged with 'portfolio' on GitHub appear automatically. To add a project, go to the repo → Settings → Topics → add 'portfolio'.
+
 </div>
 
 <div id="anime2" markdown="1"></div>
 <div id="project" markdown="1">
+
+### Current Projects
+
+{% assign portfolio_repos = site.github.public_repositories | where_exp: "repo", "repo.topics contains 'portfolio'" | sort: "updated_at" | reverse %}
+{% if portfolio_repos.size > 0 %}
+<div class="repos-grid">
+{% for repo in portfolio_repos %}
+  {% unless repo.fork %}
+  <div class="repo-card">
+    <h4><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></h4>
+    <p class="repo-description">{{ repo.description | default: "No description provided" }}</p>
+    <div class="repo-meta">
+      {% if repo.language %}<span class="repo-language">{{ repo.language }}</span>{% endif %}
+      {% if repo.stargazers_count > 0 %}<span class="repo-stars">★ {{ repo.stargazers_count }}</span>{% endif %}
+      <span class="repo-updated">Updated {{ repo.updated_at | date: "%b %Y" }}</span>
+    </div>
+  </div>
+  {% endunless %}
+{% endfor %}
+</div>
+{% else %}
+<p><em>No projects tagged yet. Tag repos with 'portfolio' on GitHub to display them here.</em></p>
+{% endif %}
 
 ### Completed
 

@@ -78,3 +78,67 @@ canvas {
 }
 
 .codecell table { width: auto; }
+
+// Repo cards styling
+.repos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.repo-card {
+  border: 1px solid #e1e4e8;
+  padding: 1.25rem;
+  background: white;
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-color: #000;
+  }
+
+  h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .repo-description {
+    margin: 0 0 1rem 0;
+    color: #586069;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .repo-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: #586069;
+
+    span {
+      white-space: nowrap;
+    }
+  }
+
+  .repo-language {
+    font-weight: 500;
+  }
+
+  .repo-stars {
+    color: #000;
+  }
+
+  .repo-updated {
+    margin-left: auto;
+  }
+}
