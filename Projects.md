@@ -33,6 +33,7 @@ I sometimes work on fun side projects. I've included a subset of these below.
         </svg>
         {{ repo.name }}
       </a>
+      {% if repo.topics contains 'ai-assisted' %}<span class="repo-tag-ai">with AI helpers</span>{% endif %}
     </h4>
     <p class="repo-description">{{ repo.description | default: "No description provided" }}</p>
     <div class="repo-meta">
